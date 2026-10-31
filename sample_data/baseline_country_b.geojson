@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "baseline_country_b",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "name": "Baseline Negara B", "type": "Straight Baseline", "state": "Negara B" }, "geometry": { "type": "LineString", "coordinates": [ [ 102.8, 1.8 ], [ 102.367977528089881, 2.12682584269663 ], [ 102.059550561797735, 2.278511235955057 ], [ 101.467977528089875, 2.708286516853932 ], [ 100.830898876404461, 3.861095505617974 ] ] } }
+]
+}

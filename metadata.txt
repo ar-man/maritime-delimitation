@@ -1,0 +1,18 @@
+[general]
+name=Maritime Delimitation (TALOS & UNCLOS)
+qgisMinimumVersion=3.10
+qgisMaximumVersion=3.99
+description=Maritime Boundary Delimitation: Equidistance Median Line and Weighted Boundaries per TALOS (IHO S-51) and UNCLOS 1982 standards.
+version=1.1.0
+author=ar-man
+email=ar.man.kpj@gmail.com
+about=Comprehensive QGIS plugin for constructing maritime median lines (strict equidistance) and weighted boundaries between coastal baselines or basepoints in compliance with UNCLOS 1982 and the TALOS Manual (IHO/IAG/IOC S-51). Supports opposite coasts and adjacent coasts delimitation with Land Boundary Terminus (LBT) detection, standard maritime zone limits (12 NM, 24 NM, 200 NM), weighting ratios (1:1 full effect, 1:2 half effect, or custom), construction tie-lines to controlling basepoints, and full QGIS Processing Toolbox integration.
+tracker=https://github.com/ar-man/maritime-delimitation/issues
+repository=https://github.com/ar-man/maritime-delimitation
+tags=maritime,delimitation,unclos,talos,median line,equidistance,baseline,basepoint,adjacent,opposite,boundary,geodesy,marine
+category=Vector
+icon=resources/icon.svg
+experimental=False
+deprecated=False
+hasProcessingProvider=True
+

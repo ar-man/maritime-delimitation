@@ -1,0 +1,32 @@
+{
+  "type": "FeatureCollection",
+  "name": "basepoints_country_b",
+  "crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": { "id": 1, "code": "BP-B01", "name": "Basepoint Tanjung Piai", "state": "Negara B" },
+      "geometry": { "type": "Point", "coordinates": [102.8, 1.8] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 2, "code": "BP-B02", "name": "Basepoint Pulau Kukup", "state": "Negara B" },
+      "geometry": { "type": "Point", "coordinates": [103.1, 2.2] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 3, "code": "BP-B03", "name": "Basepoint Selat Johor", "state": "Negara B" },
+      "geometry": { "type": "Point", "coordinates": [103.3, 2.6] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 4, "code": "BP-B04", "name": "Basepoint Tanjung Setapa", "state": "Negara B" },
+      "geometry": { "type": "Point", "coordinates": [103.6, 3.0] }
+    },
+    {
+      "type": "Feature",
+      "properties": { "id": 5, "code": "BP-B05", "name": "Basepoint Pulau Pisang", "state": "Negara B" },
+      "geometry": { "type": "Point", "coordinates": [103.9, 3.4] }
+    }
+  ]
+}

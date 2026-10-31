@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128">
+  <!-- Background: ocean -->
+  <rect width="128" height="128" rx="12" fill="#dbeafe"/>
+  
+  <!-- Wave pattern -->
+  <g opacity="0.3" stroke="#93c5fd" stroke-width="1.2" fill="none">
+    <path d="M0,30 Q16,24 32,30 Q48,36 64,30 Q80,24 96,30 Q112,36 128,30"/>
+    <path d="M0,50 Q16,44 32,50 Q48,56 64,50 Q80,44 96,50 Q112,56 128,50"/>
+    <path d="M0,70 Q16,64 32,70 Q48,76 64,70 Q80,64 96,70 Q112,76 128,70"/>
+    <path d="M0,90 Q16,84 32,90 Q48,96 64,90 Q80,84 96,90 Q112,96 128,90"/>
+  </g>
+  
+  <!-- Coastline A (left - blue) -->
+  <path d="M0,0 L28,0 C32,20 22,35 30,50 C38,65 26,80 32,100 C36,112 28,128 28,128 L0,128 Z" 
+        fill="#2563eb" stroke="#1d4ed8" stroke-width="1.5"/>
+  
+  <!-- Coastline B (right - green) -->
+  <path d="M128,0 L100,0 C96,18 104,32 96,48 C88,64 100,78 94,96 C90,108 98,128 98,128 L128,128 Z" 
+        fill="#16a34a" stroke="#15803d" stroke-width="1.5"/>
+  
+  <!-- Median line (red dashed) -->
+  <line x1="64" y1="6" x2="64" y2="122" stroke="#dc2626" stroke-width="3" 
+        stroke-dasharray="8,6" stroke-linecap="round"/>
+  
+  <!-- Tie lines (thin blue) -->
+  <g stroke="#0ea5e9" stroke-width="0.8" opacity="0.6">
+    <line x1="30" y1="25" x2="96" y2="25"/>
+    <line x1="26" y1="50" x2="98" y2="48"/>
+    <line x1="30" y1="75" x2="94" y2="72"/>
+    <line x1="34" y1="100" x2="96" y2="96"/>
+  </g>
+  
+  <!-- Basepoints dots -->
+  <g fill="#1d4ed8">
+    <circle cx="30" cy="25" r="3"/>
+    <circle cx="26" cy="50" r="3"/>
+    <circle cx="30" cy="75" r="3"/>
+    <circle cx="34" cy="100" r="3"/>
+  </g>
+  <g fill="#15803d">
+    <circle cx="96" cy="25" r="3"/>
+    <circle cx="98" cy="48" r="3"/>
+    <circle cx="94" cy="72" r="3"/>
+    <circle cx="96" cy="96" r="3"/>
+  </g>
+</svg>
